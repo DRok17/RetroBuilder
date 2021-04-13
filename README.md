@@ -10,6 +10,24 @@ No additional software is required other than what is provided.
 
 Everything is done by RetroBuilder.
 
+
+ 
+<p align="center"> 
+  <img src="https://preview.redd.it/xx8ndrnpgcs61.png?width=258&format=png&auto=webp&s=2d1b515202a4bc8146ffc71720d5bc9d6609dc74">
+
+<p align="center"> Simple Mode
+
+<p align="center"> 
+  <img src="https://preview.redd.it/kzwto1orgcs61.png?width=546&format=png&auto=webp&s=b24bfe7b77dffab059a38624e3596c10f33b3ae7">
+
+<p align="center"> Advanced Mode
+  
+
+<p align="center"> 
+  <img src="https://preview.redd.it/3urllkqzgcs61.png?width=153&format=png&auto=webp&s=b171b683812cdb286fba8a95dfc8dbe30c11b1ed">
+
+
+
 Simply place the ROM file, bg, icon0 and startup PNGs in the Input Folder, select EasyVPK and then Name/ID it.
 
 It's that simple.

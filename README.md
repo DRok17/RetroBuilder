@@ -1,4 +1,4 @@
-# RetroBuilder-3.0-N64
+# RetroBuilder-3.0
 
 After much searching for easy methods to create LiveArea Bubbles using Retroarch, I stumbled across a video from SayianPrinceVegeta on Youtube detailing this process. This became my inspiration for RetroBuilder 3.0, automate this process as much as possible.
 

@@ -1,10 +1,19 @@
 @echo off
+call scale.bat -source bg.bmp -target bg1.png
 call scale.bat -source bg.jpg -target bg1.png
+call scale.bat -source bg.jpeg -target bg1.png
 call scale.bat -source bg.jfif -target bg1.png
+call scale.bat -source bg.tiff -target bg1.png
+call scale.bat -source icon0.bmp -target icon01.png
 call scale.bat -source icon0.jpg -target icon01.png
+call scale.bat -source icon0.jpeg -target icon01.png
 call scale.bat -source icon0.jfif -target icon01.png
+call scale.bat -source icon0.tiff -target icon01.png
+call scale.bat -source startup.bmp -target startup1.png
 call scale.bat -source startup.jpg -target startup1.png
+call scale.bat -source startup.jpeg -target startup1.png
 call scale.bat -source startup.jfif -target startup1.png
+call scale.bat -source startup.tiff -target startup1.png
 
 @echo off
 IF EXIST bg1.png (
@@ -26,27 +35,25 @@ IF EXIST bg1.png (
    ) ELSE (
       GOTO CONT3
    )
-
 :CONT3
 ren bg1.png bg.png
 ren icon01.png icon0.png
 ren startup1.png startup.png
 
 @echo off
-copy "bg.jpg" ".\backup"
-copy "bg.jfif" ".\backup"
-copy "icon0.jfif" ".\backup"
-copy "icon0.jpg" ".\backup"
-copy "startup.jpg" ".\backup"
-copy "startup.jfif" ".\backup"
-
-
-
-@echo off
+del "bg.bmp"
 del "bg.jpg"
+del "bg.jpeg"
 del "bg.jfif"
+del "bg.tiff"
+del "icon0.bmp"
 del "icon0.jpg"
+del "icon0.jpeg"
 del "icon0.jfif"
+del "icon0.tiff"
+del "startup.bmp"
 del "startup.jpg"
+del "startup.jpeg"
 del "startup.jfif"
+del "startup.tiff"
 exit

@@ -169,7 +169,8 @@ cd ".\contents\1batch\"
 start zz-Core-GB-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
-    GOTO PRTIME
+    cd "..\.."
+    GOTO TMOUT
   ) ELSE (
     start zzz-StartupInput-GB.bat
     cd "..\.."
@@ -183,7 +184,8 @@ cd ".\contents\1batch\"
 start zz-Core-GBA-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
-    GOTO PRTIME
+    cd "..\.."
+    GOTO TMOUT
   ) ELSE (
     start zzz-StartupInput-GBA.bat
     cd "..\.."
@@ -197,7 +199,8 @@ cd ".\contents\1batch\"
 start zz-Core-GEN-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
-    GOTO PRTIME
+    cd "..\.."
+    GOTO TMOUT
   ) ELSE (
     start zzz-StartupInput-GEN.bat
     cd "..\.."
@@ -211,7 +214,8 @@ cd ".\contents\1batch\"
 start zz-Core-GG-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
-    GOTO PRTIME
+    cd "..\.."
+    GOTO TMOUT
   ) ELSE (
     start zzz-StartupInput-GG.bat
     cd "..\.."
@@ -225,7 +229,8 @@ cd ".\contents\1batch\"
 start zz-Core-NES-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
-    GOTO PRTIME
+    cd "..\.."
+    GOTO TMOUT
   ) ELSE (
     start zzz-StartupInput-NES.bat
     cd "..\.."
@@ -239,7 +244,8 @@ cd ".\contents\1batch\"
 start zz-Core-SNES-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
-    GOTO PRTIME
+    cd "..\.."
+    GOTO TMOUT
   ) ELSE (
     start zzz-StartupInput-SNES.bat
     cd "..\.."
@@ -256,7 +262,6 @@ IF EXIST ..\startup.png (
   ) ELSE (
     start zzz-StartupInput-N64.bat
     GOTO EBOOTN64
-    GOTO TMOUT
   )
 
 :EBOOTN64

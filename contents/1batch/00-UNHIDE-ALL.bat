@@ -56,6 +56,14 @@ IF EXIST z-rename.bat (
   )
 :NEXT7
 @echo off
+IF EXIST pngquant.exe (
+    attrib -h -s pngquant.exe
+    GOTO NEXT8
+  ) ELSE (
+    exit
+  )
+:NEXT8
+@echo off
 IF EXIST scale.bat (
     attrib -h -s scale.bat
     GOTO FOLD1
@@ -120,6 +128,30 @@ IF EXIST build-auto.bat (
     exit
   )
 :BUILD4
+@echo off
+IF EXIST vita-mksfoex.exe (
+    attrib -h -s vita-mksfoex.exe
+    GOTO BUILD5
+  ) ELSE (
+    exit
+  )
+:BUILD5
+@echo off
+IF EXIST vita-pack-vpk.exe (
+    attrib -h -s vita-pack-vpk.exe
+    GOTO BUILD6
+  ) ELSE (
+    exit
+  )
+:BUILD6
+@echo off
+IF EXIST LICENSE (
+    attrib -h -s LICENSE
+    GOTO BUILD7
+  ) ELSE (
+    exit
+  )
+:BUILD7
 @echo off
 IF EXIST PKG.bat (
     attrib -h -s PKG.bat

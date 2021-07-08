@@ -1,8 +1,8 @@
-# RetroBuilder-3.0
+# RetroBuilder
 
-After much searching for easy methods to create LiveArea Bubbles using Retroarch, I stumbled across a video from SayianPrinceVegeta on Youtube detailing this process. This became my inspiration for RetroBuilder 3.0, automate this process as much as possible.
+After much searching for easy methods to create LiveArea Bubbles using Retroarch, I stumbled across a video from SayianPrinceVegeta on Youtube detailing this process. This became my inspiration for RetroBuilder, automate this process as much as possible.
 
-RetroBuilder 3.0 allows anyone to create Retroarch and DaedalusX64 Bubbles easy.
+RetroBuilder allows anyone to create Retroarch and DaedalusX64 Bubbles easy.
 
 No more writing ROM paths. No more manually re-sizing or converting images. No more changing core.txt file every time you want to change the system. Storage capabilities for Bubble modification or archival purposes.
 

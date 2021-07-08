@@ -28,37 +28,8 @@ Everything is done by RetroBuilder.
   <img src="https://user-images.githubusercontent.com/81541725/124930830-a8e90580-dfcf-11eb-980b-999fe3a546bc.png?raw=true" alt="RetroBuilder"/>
 </p>
 
-![image](https://user-images.githubusercontent.com/81541725/124930830-a8e90580-dfcf-11eb-980b-999fe3a546bc.png)
 
-
- 
- ![image](https://user-images.githubusercontent.com/81541725/124930612-7a6b2a80-dfcf-11eb-8444-39949d2ace18.png)
-
- 
-<p align="center"> 
-
-| Roms | Images |
-|------|--------|
-| .gb  | .bmp   |
-| .gbc | .jpg   |
-| .gba | .jpeg  |
-| .gen | .jfif  |
-| .bin | .tiff  |
-| .smd | .png   |
-| .gg  |        |
-| .nes |        |
-| .smc |        |
-| .sfc |        |
-| .n64 |        |
-| .v64 |        |
-| .z64 |        |
- 
-<p align="center"> 
-  <img src="https://preview.redd.it/3urllkqzgcs61.png?width=153&format=png&auto=webp&s=b171b683812cdb286fba8a95dfc8dbe30c11b1ed">
-
-
-
-Simply place the ROM file, bg, icon0 and startup PNGs in the Input Folder, select EasyVPK and then Name/ID it.
+Simply place the ROM file, bg, icon0 and startup PNGs in the Input Folder, select Simple VPK and then Name/ID it.
 
 It's that simple.
 
@@ -79,7 +50,7 @@ REQUIREMENTS:
 
 Shout outs:
 
-SayianPrinceVegeta for the inspiration and helping shape EasyVPK.
+SayianPrinceVegeta for the inspiration and helping shape Simple VPK.
 
 u/W00lfwang for detailing this method.
 

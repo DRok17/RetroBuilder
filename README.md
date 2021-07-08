@@ -10,25 +10,26 @@ No additional software is required other than what is provided.
 
 Everything is done by RetroBuilder.
 
-
- 
-<p align="center"> 
-  <img src="https://preview.redd.it/xx8ndrnpgcs61.png?width=258&format=png&auto=webp&s=2d1b515202a4bc8146ffc71720d5bc9d6609dc74">
-
 <p align="center"> Simple Mode
-
-<p align="center"> 
-  <img src="https://preview.redd.it/kzwto1orgcs61.png?width=546&format=png&auto=webp&s=b24bfe7b77dffab059a38624e3596c10f33b3ae7">
-
+ 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81541725/124927102-3fb3c300-dfcc-11eb-9616-cb21590364e6.png?raw=true" alt="RetroBuilder"/>
+</p>
+ 
 <p align="center"> Advanced Mode
-  
 
-<p align="center"> 
-  <img src="https://preview.redd.it/3urllkqzgcs61.png?width=153&format=png&auto=webp&s=b171b683812cdb286fba8a95dfc8dbe30c11b1ed">
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81541725/124927511-b5b82a00-dfcc-11eb-939d-6710c7629d25.png?raw=true" alt="RetroBuilder"/>
+</p>
+
+<p align="center"> Supported File Types
+ 
+ <p align="center">
+  <img src="https://user-images.githubusercontent.com/81541725/124930830-a8e90580-dfcf-11eb-980b-999fe3a546bc.png?raw=true" alt="RetroBuilder"/>
+</p>
 
 
-
-Simply place the ROM file, bg, icon0 and startup PNGs in the Input Folder, select EasyVPK and then Name/ID it.
+Simply place the ROM file, bg, icon0 and startup PNGs in the Input Folder, select Simple VPK and then Name/ID it.
 
 It's that simple.
 
@@ -49,7 +50,7 @@ REQUIREMENTS:
 
 Shout outs:
 
-SayianPrinceVegeta for the inspiration and helping shape EasyVPK.
+SayianPrinceVegeta for the inspiration and helping shape Simple VPK.
 
 u/W00lfwang for detailing this method.
 

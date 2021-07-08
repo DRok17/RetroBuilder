@@ -2,6 +2,6 @@
 
 cd "..\.."
 
-start PKG.bat
+start /min PKG.bat
 
 exit

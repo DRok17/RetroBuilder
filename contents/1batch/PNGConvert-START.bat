@@ -1,7 +1,8 @@
 @ECHO OFF
 mode 50,12
-Title FAKE08-BUILDER
-ECHO                   FAKE08-BUILDER
+set /p appver=< .\appver.txt
+Title RETROBUILDER %appver%
+ECHO                    RETROBUILDER
 ECHO.
 ECHO ..................................................
 ECHO.

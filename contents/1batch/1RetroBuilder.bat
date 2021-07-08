@@ -1,7 +1,9 @@
 :MENU
 @ECHO OFF
 mode 32,21
-ECHO         RETROBUILDER 3.0
+set /p appver=< .\appver.txt
+Title RETROBUILDER
+ECHO           RETROBUILDER
 ECHO.
 ECHO ................................
 ECHO.
@@ -53,7 +55,9 @@ GOTO MENU
 :ADOP
 @ECHO OFF
 mode 68,20
-ECHO                          RETROBUILDER 3.0
+set /p appver=< .\appver.txt
+Title RETROBUILDER %appver%
+ECHO                             RETROBUILDER
 ECHO.
 ECHO ....................................................................
 ECHO.

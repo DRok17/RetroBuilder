@@ -1,7 +1,9 @@
 :MENU
 @ECHO OFF
 mode 50,12
-ECHO                 RETROBUILDER 3.0
+set /p appver=< .\contents\1batch\appver.txt
+Title RETROBUILDER %appver%
+ECHO                    RETROBUILDER
 ECHO.
 ECHO ..................................................
 ECHO.
@@ -78,7 +80,7 @@ copy ".\contents\sys-id.txt" ".\contents\package"
 for %%i in (.\contents\*.txt*) do if not "%%i"==".\contents\core.txt" if not "%%i"==".\contents\rom.txt" if not "%%i"==".\contents\rom-id.txt" if not "%%i"==".\contents\rom-name.txt" if not "%%i"==".\contents\sys-id.txt" del /q "%%i"
 del .\contents\input\0splitter\nes-fileslist.txt
 cd ".\contents\1batch"
-start zzz-EbootInput-RA.bat
+start /min zzz-EbootInput-RA.bat
 
 exit
 
@@ -166,13 +168,13 @@ GOTO :EOF
 (echo GB) > ".\contents\sys-id.txt"
 @echo OFF
 cd ".\contents\1batch\"
-start zz-Core-GB-OUT.bat
+start /min zz-Core-GB-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
     cd "..\.."
     GOTO TMOUT
   ) ELSE (
-    start zzz-StartupInput-GB.bat
+    start /min zzz-StartupInput-GB.bat
     cd "..\.."
     GOTO TMOUT
   )
@@ -181,13 +183,13 @@ IF EXIST ..\startup.png (
 (echo GBA) > ".\contents\sys-id.txt"
 @echo OFF
 cd ".\contents\1batch\"
-start zz-Core-GBA-OUT.bat
+start /min zz-Core-GBA-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
     cd "..\.."
     GOTO TMOUT
   ) ELSE (
-    start zzz-StartupInput-GBA.bat
+    start /min zzz-StartupInput-GBA.bat
     cd "..\.."
     GOTO TMOUT
   )
@@ -196,13 +198,13 @@ IF EXIST ..\startup.png (
 (echo GEN) > ".\contents\sys-id.txt"
 @echo OFF
 cd ".\contents\1batch\"
-start zz-Core-GEN-OUT.bat
+start /min zz-Core-GEN-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
     cd "..\.."
     GOTO TMOUT
   ) ELSE (
-    start zzz-StartupInput-GEN.bat
+    start /min zzz-StartupInput-GEN.bat
     cd "..\.."
     GOTO TMOUT
   )
@@ -211,13 +213,13 @@ IF EXIST ..\startup.png (
 (echo GG) > ".\contents\sys-id.txt"
 @echo OFF
 cd ".\contents\1batch\"
-start zz-Core-GG-OUT.bat
+start /min zz-Core-GG-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
     cd "..\.."
     GOTO TMOUT
   ) ELSE (
-    start zzz-StartupInput-GG.bat
+    start /min zzz-StartupInput-GG.bat
     cd "..\.."
     GOTO TMOUT
   )
@@ -226,13 +228,13 @@ IF EXIST ..\startup.png (
 (echo NES) > ".\contents\sys-id.txt"
 @echo OFF
 cd ".\contents\1batch\"
-start zz-Core-NES-OUT.bat
+start /min zz-Core-NES-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
     cd "..\.."
     GOTO TMOUT
   ) ELSE (
-    start zzz-StartupInput-NES.bat
+    start /min zzz-StartupInput-NES.bat
     cd "..\.."
     GOTO TMOUT
   )
@@ -241,13 +243,13 @@ IF EXIST ..\startup.png (
 (echo SNES) > ".\contents\sys-id.txt"
 @echo OFF
 cd ".\contents\1batch\"
-start zz-Core-SNES-OUT.bat
+start /min zz-Core-SNES-OUT.bat
 @echo off
 IF EXIST ..\startup.png (
     cd "..\.."
     GOTO TMOUT
   ) ELSE (
-    start zzz-StartupInput-SNES.bat
+    start /min zzz-StartupInput-SNES.bat
     cd "..\.."
     GOTO TMOUT
   )
@@ -260,17 +262,13 @@ cd ".\contents\1batch\"
 IF EXIST ..\startup.png (
     GOTO EBOOTN64
   ) ELSE (
-    start zzz-StartupInput-N64.bat
+    start /min zzz-StartupInput-N64.bat
     GOTO EBOOTN64
   )
 
 :EBOOTN64
-start zzz-EbootInput-N64.bat
+start /min zzz-EbootInput-N64.bat
 GOTO PRTIME2
-
-:PRTIME
-cd "..\.."
-GOTO TMOUT
 
 :PRTIME2
 cd "..\.."
@@ -291,7 +289,9 @@ GOTO TMOUT2
 :TMOUT
 @ECHO OFF
 mode 50,12
-ECHO                  RETROBUILDER 3.0
+set /p appver=< .\contents\1batch\appver.txt
+Title RETROBUILDER %appver%
+ECHO                    RETROBUILDER
 ECHO.
 ECHO ..................................................
 ECHO.
@@ -308,7 +308,9 @@ GOTO VPKC
 :TMOUT2
 @ECHO OFF
 mode 50,12
-ECHO                  RETROBUILDER 3.0
+set /p appver=< .\contents\1batch\appver.txt
+Title RETROBUILDER %appver%
+ECHO                    RETROBUILDER
 ECHO.
 ECHO ..................................................
 ECHO.
@@ -325,7 +327,9 @@ GOTO CON
 :TMOUT3
 @ECHO OFF
 mode 50,12
-ECHO                  RETROBUILDER 3.0
+set /p appver=< .\contents\1batch\appver.txt
+Title RETROBUILDER %appver%
+ECHO                    RETROBUILDER
 ECHO.
 ECHO ..................................................
 ECHO.

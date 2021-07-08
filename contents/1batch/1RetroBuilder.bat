@@ -10,7 +10,7 @@ ECHO.
 ECHO    * EasyVPK Creation Tools *
 ECHO.
 ECHO      1 - Input Folder
-ECHO      2 - EasyVPK
+ECHO      2 - Simple VPK
 ECHO      3 - Package/Archive
 ECHO      4 - Wipe Input/Contents
 ECHO.
@@ -64,7 +64,7 @@ ECHO.
 ECHO    * EasyVPK Creation Tools *       * Custom Input and VPK Create *
 ECHO.
 ECHO      1 - Input Folder                  5 - Image Converter
-ECHO      2 - EasyVPK                       6 - Select Startup PNG
+ECHO      2 - Simple VPK                    6 - Select Startup PNG
 ECHO      3 - Package/Archive               7 - Re-title/ID VPK
 ECHO      4 - Wipe Input/Contents           8 - Re-make Archive VPK
 ECHO.

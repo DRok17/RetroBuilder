@@ -7,7 +7,7 @@ ECHO           RETROBUILDER
 ECHO.
 ECHO ................................
 ECHO.
-ECHO    * Simple VPK Creation Tools *
+ECHO   * Simple VPK Creation Tools *
 ECHO.
 ECHO      1 - Input Folder
 ECHO      2 - Simple VPK
@@ -61,7 +61,7 @@ ECHO                             RETROBUILDER
 ECHO.
 ECHO ....................................................................
 ECHO.
-ECHO    * Simple VPK Creation Tools *     * Custom Input and VPK Create *
+ECHO   * Simple VPK Creation Tools *     * Custom Input and VPK Create *
 ECHO.
 ECHO      1 - Input Folder                  5 - Image Converter
 ECHO      2 - Simple VPK                    6 - Select Startup PNG

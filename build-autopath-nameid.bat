@@ -141,25 +141,25 @@ GOTO :EOF
 
 :SFAM
 @ECHO OFF
-findstr /I /R [a-z]*\.sfc  .\contents\rom.txt>NUL
+findstr /I /R [a-z]*\.sfc  .\contents\file2.txt>NUL
 IF ERRORLEVEL 1 (GOTO SN64) ELSE (GOTO SNES)
 GOTO :EOF
 
 :SN64
 @ECHO OFF
-findstr /I /R [a-z]*\.n64  .\contents\rom.txt>NUL
+findstr /I /R [a-z]*\.n64  .\contents\file2.txt>NUL
 IF ERRORLEVEL 1 (GOTO SZ64) ELSE (GOTO N64)
 GOTO :EOF
 
 :SZ64
 @ECHO OFF
-findstr /I /R [a-z]*\.z64  .\contents\rom.txt>NUL
+findstr /I /R [a-z]*\.z64  .\contents\file2.txt>NUL
 IF ERRORLEVEL 1 (GOTO SV64) ELSE (GOTO N64)
 GOTO :EOF
 
 :SV64
 @ECHO OFF
-findstr /I /R [a-z]*\.v64  .\contents\rom.txt>NUL
+findstr /I /R [a-z]*\.v64  .\contents\file2.txt>NUL
 IF ERRORLEVEL 1 (GOTO TMOUT) ELSE (GOTO N64)
 GOTO :EOF
 
